@@ -2,10 +2,9 @@ import ReactPlayer from 'react-player'
 import {IoMdClose} from 'react-icons/io'
 import Popup from 'reactjs-popup'
 
-
 const MovieItem = props => {
-  const {item} = props
-  const {thumbnailUrl, videoUrl} = item
+  const {movieDetails} = props
+  const {thumbnailUrl, videoUrl} = movieDetails
 
   return (
     <div>
